@@ -1,0 +1,145 @@
+.header {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.logo {
+    border: 1px solid dimgrey;
+    width: 25%;
+    height: 100px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.banner {
+    border: 1px solid dimgrey;
+    width: 75%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.menu {
+    border: 1px solid dimgrey;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.menuRight {
+    width: 70%;
+    height: 30px;
+    color: darkblue;
+    display: flex;
+    border-left: 1px solid black;
+}
+.main {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.left {
+    width: 20%;
+    height: 500px;
+    margin-right: 5px;
+
+}
+.leftTop {
+    border: 1px solid dimgrey;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+p {
+    margin: 5px;
+    object-fit: contain;
+}
+.leftBottom {
+    border: 1px solid dimgrey;
+    width: 100%;
+    height: 330px;
+}
+
+.mid {
+    width: 70%;
+    height: 500px;
+}
+
+.mid .top {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.mid .top .hot-news, .mid .top .slide {
+    width: 50%;
+    height: 100%;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.mid .bottom {
+    height: 315px;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom .item {
+    width: calc(100% / 3 - 4px);
+    height: 150px;
+    border: 1px solid;
+    margin: 2px;
+    box-sizing: border-box;
+}
+.right {
+    width: 20%;
+    height: 500px;
+    margin-left: 5px;
+    border: 1px solid;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer {
+    border: 2px solid dimgrey;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: end;
+    justify-content: end;
+}
+
+.footerleft {
+    width: 30%;
+    color: black;
+    text-align: start;
+}
+
+.footerRight {
+    width: 70%;
+    color: darkblue;
+    text-decoration: underline;
+    display: flex;
+    justify-content: right;
+}
+.line {
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
